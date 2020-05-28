@@ -15,7 +15,7 @@ public class SwitchExample {
 			     break;
 			     default:
 			    	 System.out.println("기본");
-			    	 
+			    	 System.out.println(player);
 			    	 char grade = 'A+';
 			    	 char grade = 'B';
 			    	 char grade = 'C';
@@ -23,13 +23,13 @@ public class SwitchExample {
 			    	 char grade = 'F';
 			    	 
 			    	 Switch(grade) {
-			    		 case 'A':
-			    		 case 'B':
-			    		 case 'c':
+			    		 case 'A+':
 			    			 System.out.println("100점은 A+");
+			    		 case 'B':
+			    			 System.out.println();
+			    		 case 'c':
 			    	 }
-			    	 System.out.println('A');
-			    	 
-			    	 System.out.println('B');
-			    	 System.out.println('c'); 
+			    		 
+			    			
+			  
 		}

@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class AppleBox { 
 	 public static void main(String[] args) {
 		 Scanner scan = new Scanner(System.in);
+		 int banana = 10;
+		 System.out.println();
 		 int apple = scan.nextInt("사과 갯수를 입력하세요");
 		 int perBox= scan.nextInt();
 		 System.out.println("박스당 갯수를 입력하세요");
